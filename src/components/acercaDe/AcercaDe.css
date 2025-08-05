@@ -1,0 +1,41 @@
+.acercade_contenedor{
+  min-height: 100vh;
+  background-color: var(--color-secundario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+.acercade_contenedor_caja{
+  width: 500px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  background-color: rgb(248, 244, 235);
+  color: black;
+  h2{
+    font-family: var(--foont-style);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+
+  }
+  p{
+    font-family: var(--foont-style);
+    text-align: justify;
+    font-size: large;
+    padding: 10px;
+  }
+
+}
+
+@media (max-width:480px) {
+  .acercade_contenedor{
+    width: 100%;
+  }
+  .acercade_contenedor_caja{
+    width: 95%;
+  }
+}

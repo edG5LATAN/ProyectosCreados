@@ -1,0 +1,8 @@
+.footer_content{
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  padding: 3px 0 3px 0;
+  background-color: var(--color-principal);
+  color:rgb(255, 255, 255);
+}

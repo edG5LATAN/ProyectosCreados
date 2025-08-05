@@ -1,0 +1,6 @@
+:root{
+  --imagen-fondo: url("./img/project.png");
+  --foont-style: "Winky Rough", sans-serif;
+  --color-principal: goldenrod;
+  --color-secundario: rgba(218, 165, 32, 0.274);
+}

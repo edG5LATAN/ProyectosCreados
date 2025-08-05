@@ -1,0 +1,267 @@
+/* Estilos generales */
+.slide-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.slide-main-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1rem;
+  font-family: var(--foont-style);
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.slide-main-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #4a6fa5, #4fc3f7);
+  border-radius: 2px;
+}
+
+/* Slideshow container */
+.slideshow-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slideshow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* Slide card */
+.slide-card {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.slide-image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: auto;
+  transition: transform 0.5s ease;
+}
+
+.slide-card:hover .slide-image {
+  transform: scale(1.02);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slide-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.slide-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+  font-family: var(--foont-style);
+  text-transform: uppercase;
+}
+
+.slide-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 2rem;
+  font-family: var(--foont-style);
+  font-size: larger;
+}
+
+.demo-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-family: var(--foont-style);
+  text-transform: uppercase;
+  font-size: medium;
+  background-color: goldenrod;
+}
+
+.demo-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation buttons */
+.nav-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: all 0.3s ease;
+  background-color: #4a6fa5;
+  color: white;
+}
+
+.nav-button:hover {
+  transform: scale(1.1);
+}
+
+/* Slideshow controls */
+.slideshow-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.mobile-nav-button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+  background-color: goldenrod;
+  font-family: var(--foont-style);
+  font-size: larger;
+
+}
+
+.mobile-nav-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.dots-container {
+  display: flex;
+  gap: 0.8rem;
+  margin: 0 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: goldenrod;
+  opacity: 0.3;
+}
+
+.dot.active {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .slide-main-title {
+    font-size: 2.2rem;
+  }
+  
+  .slide-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .slideshow-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .slide-card {
+    width: 95%;
+  }
+  
+  .slide-image-container {
+    height: 300px;
+  }
+  
+  .slide-content {
+    padding: 1.5rem;
+  }
+  
+  .mobile-nav-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-main-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .slide-title {
+    font-size: 1.4rem;
+  }
+  
+  .slide-description {
+    font-size: 1rem;
+  }
+  
+  .slide-image-container {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .dots-container {
+    gap: 0.6rem;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
