@@ -1,12 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Proyecto de trabajos varios como developer full-stack
 
-Currently, two official plugins are available:
+Proyectos varios donde te presento varios de mis trabajos creados en mis inicios como desarrollador full stack estos trabajos no se pueden mostrar en mi portafolio ya que la mayoria fueron de momento de aprendizaje donde se tomaban pequenas partes de lo aprendido y se implementaban en un proyecto cencillo como leer una api de clima leer una api de libros leer una api de chistes y asi avanzando hasta crear un Front-End de un reproductor online de videos y poder guardarlos en una base de datos MYSQL para poder verlos en cualquier lado con solo tener internet. Poder crear una Back-End para mis proyectos como para un proyectos escolar de elecciones internas de un curso, un Back-End para una agenda online , carrito de compras ....
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+![Logo](https://i.pinimg.com/736x/04/e3/f9/04e3f98445a6f8715dcb18ae0237d889.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Informacion
+
+-Aca podras ver en video y desplegado lamayoria de proyectos echos como desarrollador web full stack echa un vistazon en cada una de sus ramas como JUEGOS, APLICACIONES WEB y VARIAS con proyectos Back-End.
+
+
+
+## Documentation
+
+para la elaboracion del proyecto usamos 
+
+[React](https://es.react.dev/)
+
+[Vite](https://vite.dev/)
+
+[Express](https://expressjs.com/es/)
+
+[Json-Server](https://www.npmjs.com/package/json-server)
+
+[Spring-Boot](https://spring.io/projects/spring-boot)
+
+[java](https://www.java.com/es/)
+
+[Bootstrap](https://getbootstrap.com/)
+
+[VisualStudioCode](https://code.visualstudio.com/)
+
+[MYSQL](https://www.mysql.com/)
+
+[Thymeleaf](https://www.thymeleaf.org/)
+## version
+
+Version 1.0.0
+
+
+
+## Authors
+
+- [Edwin Castro](https://www.linkedin.com/in/edwin-castro-13a763272/)
+
+
+## 🔗 Links
+link de web ya desplegada dale click 
+[![despliefue en GitHub](https://img.shields.io/badge/portafolio-Backend-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://portafolio-reack.vercel.app/)
+
+
+
+link de perfil de linkedin para ver mas proyectos frontend y backend
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=gold)](https://www.linkedin.com/in/edwin-castro-13a763272/)
+
