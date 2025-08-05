@@ -18,7 +18,7 @@ function Header() {
           }}
           onClick={() => abrirPage("/")}
           src="./img/logo.png"
-          alt=""
+          alt="imagen de logo"
         />
         <ul>
           <motion.li

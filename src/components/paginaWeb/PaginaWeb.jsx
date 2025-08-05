@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./PaginaWeb.css";
 import SaltoLinea from "../saltoLinea/SaltoLinea";
 import { listaWeb } from "../../service/Servicios";
+import SliderComp from "../sliderComp/SliderComp";
 
 function PaginaWeb() {
   return (
@@ -31,7 +32,7 @@ function PaginaWeb() {
         </p>
       </motion.div>
       <SaltoLinea />
-      <SliderComp lista={listaWeb} title="proyecto juegos" />
+      <SliderComp lista={listaWeb} title="proyecto web" />
     </div>
   );
 }
