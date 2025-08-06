@@ -10,9 +10,9 @@ function Contacto() {
 
   const enviarCorreo = (valores) => {
 
-    const serviceID = import.meta.env.MSJ_SERVICE_ID
-    const templateID = import.meta.env.MSJ_TEMPLATE_ID
-    const userID = import.meta.env.MSJ_USER_ID
+    const serviceID = import.meta.env.VITE_MSJ_SERVICE_ID
+    const templateID = import.meta.env.VITE_MSJ_TEMPLATE_ID
+    const userID = import.meta.env.VITE_MSJ_USER_ID
 
     emailjs.send(serviceID, templateID, valores, userID)
       .then(() => {
@@ -154,5 +154,6 @@ function Contacto() {
     </div>
   );
 }
+
 
 export default Contacto;
