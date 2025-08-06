@@ -54,7 +54,9 @@ function Header() {
             full-stack.
           </p>
         </div>
-        <div className="header_content_hero2"></div>
+        <div className="header_content_hero2">
+          <img src="./img/proyectovarios.webp" alt="" />
+        </div>
       </div>
     </div>
   );

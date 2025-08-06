@@ -62,10 +62,7 @@ nav>ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./img/proyectovarios.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  overflow: hidden;
 }
 
 .header_content_hero1 {
@@ -90,6 +87,11 @@ nav>ul {
 .header_content_hero2 {
   width: 50%;
   height: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 /* para version tablet */
@@ -185,4 +187,8 @@ nav>ul {
     width: 50%;
     height: auto;
   }
+}
+
+@media (max-width:390px) {
+  
 }
