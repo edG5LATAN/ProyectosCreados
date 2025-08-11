@@ -64,6 +64,13 @@ export const listaJuegos = [
     imagen: "https://github.com/user-attachments/assets/d8a7d6e4-8332-467a-bf25-ca1c754d7793",
     url: "https://chuck-norrys.vercel.app/",
     informacion: "Web app v1.0.0 con los mejores chistes de Chuck Norris usando API chucknorris.io. ¡Risas garantizadas con este clásico del humor!"
+  },
+  {
+    id:5,
+    titulo:"Juego el Ahorcado",
+    imagen:"https://i.pinimg.com/736x/f5/ee/c5/f5eec57ce071fd45a9d7bd0a33b720c8.jpg",
+    url:"https://ahorcadojuego.vercel.app/",
+    informacion:"Proyecto creado con React recreando el famoso juego de el ahorcado donde podras jugar online con tus amigos tendras 5 intentos diviertete."
   }
 ]
 
@@ -176,4 +183,5 @@ export const listVarias = [
     url: "https://www.youtube.com/watch?v=7Gl556EQ--Y",
     informacion: "API REST de carrito de compras con Spring Boot: autenticación JWT, roles de usuario y gestión segura de transacciones."
   }
+
 ]
