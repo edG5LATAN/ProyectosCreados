@@ -130,6 +130,13 @@ export const listaWeb = [
     imagen: "https://i.pinimg.com/736x/ed/ca/5b/edca5b1ad33e8e15329d709115b7fb6c.jpg",
     url: "https://edg5latan.github.io/proyecto_comedor/index.html",
     informacion: "Proyecto Full-Stack autodidacta: app web con HTML, CSS y JS. Uno de mis primeros logros como desarrollador Front-End. ¡Orgullo de principiante!"
+  },
+  {
+    id: 9,
+    titulo: "Alura Geek",
+    imagen: "https://i.pinimg.com/originals/3e/1f/ed/3e1fed743bdfdb2abfd308a815d08e9c.png",
+    url: "https://edg5latan.github.io/AluraGeek/",
+    informacion: "Proyecto Full-Stack creado con con HTML, CSS y JS. y creando mi propio backend en Express proyecto que me ayudo a comprender el proceso web full stack."
   }
 ]
 
@@ -185,3 +192,4 @@ export const listVarias = [
   }
 
 ]
+
