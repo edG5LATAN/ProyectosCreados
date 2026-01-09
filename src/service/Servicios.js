@@ -71,6 +71,13 @@ export const listaJuegos = [
     imagen:"https://i.pinimg.com/736x/f5/ee/c5/f5eec57ce071fd45a9d7bd0a33b720c8.jpg",
     url:"https://ahorcadojuego.vercel.app/",
     informacion:"Proyecto creado con React recreando el famoso juego de el ahorcado donde podras jugar online con tus amigos tendras 5 intentos diviertete."
+  },
+  {
+    id:6,
+    titulo:"Frod Game",
+    imagen:"https://i.pinimg.com/736x/d2/8d/a4/d28da46fb6052fae7c356b876874420d.jpg",
+    url:"https://edtecnology.itch.io/edtecnologygame",
+    informacion:"Proyecto de mi primer juego Online creado en Unity y version web y version para pc formato .exe de 5 niveles disfruta y diviertete con el juego."
   }
 ]
 
@@ -192,4 +199,5 @@ export const listVarias = [
   }
 
 ]
+
 
