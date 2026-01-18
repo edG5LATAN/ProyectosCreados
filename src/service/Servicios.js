@@ -38,42 +38,49 @@ export const listaInfo = [
 
 export const listaJuegos = [
   {
-    id: 1,
+    id:1,
+    titulo:"Circle Adventure",
+    imagen:"https://i.pinimg.com/736x/d5/33/e1/d533e1f242e270ca83b774e3db9f18f8.jpg",
+    url:"https://edtecnology.itch.io/circlegame",
+    informacion:"Proyecto de mi primer juego Online creado en Unity y version web y version para pc formato .exe de 5 niveles disfruta y diviertete con el juego."
+  },
+  {
+    id: 2,
     titulo: "Juego Adivinanza",
     imagen: "https://i.pinimg.com/736x/50/54/36/5054360080214f75900fefb081664be3.jpg",
     url: "https://edg5latan.github.io/juegoAdivinanzaAlura/",
     informacion: "Adivina el número en 5 intentos: juego web multijugador creado con Node.js y React. ¡Compite con amigos en tiempo real!"
   },
   {
-    id: 2,
+    id: 3,
     titulo: "Chistes Chuck-Norris v1.0.1",
     imagen: "https://i.pinimg.com/736x/7d/4d/4b/7d4d4b4e631debc9a1546c6cb07c2e31.jpg",
     url: "https://diversion-chistes.vercel.app/",
     informacion: "Web App v1.0.1 en React: chistes de Chuck Norris por categorías usando API chucknorris.io. Proyecto full-stack con autenticación y favoritos."
   },
   {
-    id: 3,
+    id: 4,
     titulo: "Juego X 0",
     imagen: "https://i.pinimg.com/736x/3a/dd/8b/3add8be4946954c875cdc2059c4b0d44.jpg",
     url: "https://edg5latan.github.io/JuegoXy0/",
     informacion: "Juego clásico recreado con HTML, CSS y JS. ¡Diversión multijugador para compartir con amigos! Proyecto web interactivo y nostálgico."
   },
   {
-    id: 4,
+    id: 5,
     titulo: "Chistes Chuck-Norrys v1.0.0",
     imagen: "https://github.com/user-attachments/assets/d8a7d6e4-8332-467a-bf25-ca1c754d7793",
     url: "https://chuck-norrys.vercel.app/",
     informacion: "Web app v1.0.0 con los mejores chistes de Chuck Norris usando API chucknorris.io. ¡Risas garantizadas con este clásico del humor!"
   },
   {
-    id:5,
+    id:6,
     titulo:"Juego el Ahorcado",
     imagen:"https://i.pinimg.com/736x/f5/ee/c5/f5eec57ce071fd45a9d7bd0a33b720c8.jpg",
     url:"https://ahorcadojuego.vercel.app/",
     informacion:"Proyecto creado con React recreando el famoso juego de el ahorcado donde podras jugar online con tus amigos tendras 5 intentos diviertete."
   },
   {
-    id:6,
+    id:7,
     titulo:"Frod Game",
     imagen:"https://i.pinimg.com/736x/d2/8d/a4/d28da46fb6052fae7c356b876874420d.jpg",
     url:"https://edtecnology.itch.io/edtecnologygame",
@@ -199,5 +206,6 @@ export const listVarias = [
   }
 
 ]
+
 
 
