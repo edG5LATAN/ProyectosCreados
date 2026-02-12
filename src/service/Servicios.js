@@ -81,7 +81,7 @@ export const listaJuegos = [
   },
   {
     id:7,
-    titulo:"Frod Game",
+    titulo:"Frog Game",
     imagen:"https://i.pinimg.com/736x/d2/8d/a4/d28da46fb6052fae7c356b876874420d.jpg",
     url:"https://edtecnology.itch.io/edtecnologygame",
     informacion:"Proyecto de mi primer juego Online creado en Unity y version web y version para pc formato .exe de 5 niveles disfruta y diviertete con el juego."
@@ -206,6 +206,7 @@ export const listVarias = [
   }
 
 ]
+
 
 
 
